@@ -1,7 +1,7 @@
 from conans import ConanFile, CMake
 import os
 
-username = os.getenv( '"CONAN_USERNAME', 'moonforged' )
+username = os.getenv( '"CONAN_USERNAME', 'ebclark2' )
 channel = os.getenv( 'CONAN_CHANNEL', 'testing' )
 
 class YamlCppTestConan( ConanFile ):

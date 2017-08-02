@@ -16,7 +16,7 @@ class YamlCppConan( ConanFile ):
   }
   default_options = 'shared=False', 'minosx=10.8'
   generators = 'cmake'
-  requires = 'Boost/1.60.0@lasote/stable'
+  requires = 'Boost/1.64.0@inexorgame/stable'
   folder = '%s-%s-%s' % ( name, name, version )
 
   def source( self ):
